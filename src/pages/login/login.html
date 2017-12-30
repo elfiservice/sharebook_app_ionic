@@ -1,0 +1,57 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>ShareBook</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h3 align="center">O melhor app de trocas e emprestimos de livros</h3>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col text-center>
+        <img src="../assets/imgs/foto.jpg" width="50%" style="text-align: center">
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+        <ion-col text-center>
+      <ion-list>
+        <ion-item>
+          <ion-label color="primary"> Login</ion-label>
+          <ion-input placeholder="email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label color="primary">Senha</ion-label>
+          <ion-input type="password" placeholder="senha"></ion-input>
+        </ion-item>
+        <ion-item text-center>
+          <button ion-button round>Entrar</button>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col> </ion-col>
+      <ion-col>
+        <button ion-button round (click)="goToCadastroPage()">Cadastro</button>
+      </ion-col>
+      <ion-col> </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</ion-content>
